@@ -13,10 +13,10 @@ If you comment out the `content` property with the en dash **symbol** in `.t2` a
 
 
 ## Workarounds:
-1. Not piping though `gulp-autoprefixer`
+1. Not piping though `gulp-autoprefixer`  
 Commenting out the autoprefixer line in `gulpfile.js` will display the sourcemap correctly when symbols are used.
 
-2. Using the hex representation
+2. Using the hex representation  
 Using the hex (`\2013` for en dash - see `.t3`) instead of the symbol will display the sourcemap correctly when autoprefixer is enabled.
 
 
