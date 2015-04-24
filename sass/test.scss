@@ -1,0 +1,24 @@
+.t1 {
+	color: #000;
+	transform: rotate(360deg);
+
+	&:before {
+		content: 'test';
+	}
+}
+
+.t2 {
+	transform: rotate(720deg);
+
+	&:before {
+		content: '–';
+	}
+}
+
+.t3 {
+	transform: rotate(1080deg);
+
+	&:before {
+		content: '\2013';
+	}
+}
