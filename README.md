@@ -7,7 +7,7 @@ Sourcemaps don't work when used in combination with `gulp-sass` & `gulp-autopref
 
 
 ## Cause
-As you can see from running the test case, using unicode symbols (eg: an en dash in a pseudo element `content` property) will cause the sourcemaps to be ignored in Chrome.
+As you can see from running the test case, using unicode symbols (eg: an en dash in a pseudo element `content` property) **anywhere** in your Sass will cause the sourcemaps to be ignored in Chrome.
 
 If you comment out the `content` property with the en dash **symbol** in `.t2` and recompile, the sourcemap will show up in Chrome.
 
